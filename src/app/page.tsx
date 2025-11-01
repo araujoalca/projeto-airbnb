@@ -1,10 +1,15 @@
+import BarraSuperior from "../widgets/BarraSuperior";
 
 export default function Home() {
   return (
     <>
-      <div className="border-orange-600 border-2">
-        Área Topo
+      <div>
+        
+        <BarraSuperior />
+
       </div>
+
+      <hr />
 
 
       <div className="border-green-600 border-2">

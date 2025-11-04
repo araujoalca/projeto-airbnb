@@ -1,3 +1,4 @@
+import BarraPesquisa from "../widgets/BarraPesquisa";
 import BarraSuperior from "../widgets/BarraSuperior";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
       <div>
         
         <BarraSuperior />
+        <BarraPesquisa />
 
       </div>
 

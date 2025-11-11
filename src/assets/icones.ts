@@ -3,5 +3,6 @@
 
 export {
     IconUserCircle, 
-    IconSearch
+    IconSearch,
+    IconAdjustmentsHorizontal
 } from '@tabler/icons-react'

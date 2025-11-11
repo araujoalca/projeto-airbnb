@@ -5,11 +5,11 @@ interface BotaoIconeProps {
     children: React.ReactNode
 }
 
-const BotaoIcone = ( props: BotaoIconeProps) => {
+const BotaoIcone = (props: BotaoIconeProps) => {
     return (
         <>
             <button className="
-            flex gap-2 border-2 rounded-xl items-center
+            rounded-xl border-2 flex items-center gap-2
             px-4 py-2 hover:border-gray-400
             ">
                 <span>{props.icone}</span>

@@ -1,33 +1,33 @@
+
 import Link from "next/link"
-import Logo from "../components/Logo/index"
-import { IconUserCircle } from "@tabler/icons-react"
+import Logo from "../components/Logo"
 import BotaoIcone from "../components/BotaoIcone"
+import { IconUserCircle } from "@tabler/icons-react"
 
 const BarraSuperior = () => {
-    return (
-        <div className="container my-6 mx-auto flex justify-between items-center">
+  return (
+    <div className="py-6 flex justify-between items-center">
 
-          <Logo />
+      <Logo />
 
-          <div className="flex gap-6">
-            <Link className="font-semibold" href="/">Acomodações</Link>
-            <Link className="opacity-60" href="/">Experiências</Link>
-          </div>       
+      <div className="flex gap-6">
+        <Link className="font-semibold" href="/">Acomodações</Link>
+        <Link className="opacity-60" href="/">Experiências</Link>
+      </div>
 
-          <BotaoIcone
-            icone={(
-              <IconUserCircle 
-                  aria-label="Ícone de usuário" 
-                  size={22}
-              />
-            )}>
-            Entrar
-          </BotaoIcone>
+      <BotaoIcone
+        icone={(
+          <IconUserCircle
+            aria-label="Ícone de usuário"
+            size={20}
+          />
+        )} >
+        Entrar
+      </BotaoIcone>
 
-          
-          
-        </div>
-    )
+
+    </div>
+  )
 }
 
 export default BarraSuperior

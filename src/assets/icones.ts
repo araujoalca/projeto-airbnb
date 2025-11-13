@@ -2,7 +2,9 @@
 // export {IconUserCircle, IconSearch}
 
 export {
-    IconUserCircle, 
+    IconUserCircle,
     IconSearch,
-    IconAdjustmentsHorizontal
+    IconAdjustmentsHorizontal,
+    IconHeartFilled,
+    IconStarFilled
 } from '@tabler/icons-react'

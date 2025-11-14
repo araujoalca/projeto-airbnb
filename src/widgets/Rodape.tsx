@@ -9,9 +9,9 @@ const Rodape = () => {
                 <li>&middot;</li>
                 <li><Link className="hover:text-red-500" href="/">Termos</Link></li>
                 <li>&middot;</li>
-                <li><Link className="hover:text-red-500" href="/">Mapa do Site</Link></li>
+                <li><Link className="hover:text-red-500" href="/">Mapa do site</Link></li>
                 <li>&middot;</li>
-                <li><Link className="hover:text-red-500" href="/">Informações da Empresa</Link></li>
+                <li><Link className="hover:text-red-500" href="/">Informações da empresa</Link></li>
             </ul>
         </div>
     )

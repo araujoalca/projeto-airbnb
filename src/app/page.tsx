@@ -13,7 +13,7 @@ export default function Home() {
         <BarraPesquisa />
       </header>
 
-      <hr className="my-3" />
+      <hr className="my-6" />
 
       <main className="container mx-auto">
         <NavegacaoAbasHorizontal />
@@ -22,7 +22,7 @@ export default function Home() {
 
       <footer className="bg-gray-200">
         <Rodape />
-      </footer >
+      </footer>
     </>
   );
 }

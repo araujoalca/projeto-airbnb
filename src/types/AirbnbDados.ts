@@ -26,7 +26,7 @@ export interface Testimonials {
     customerTime: number
     createdAt: number
     stayedAt: number
-  }
+}
 
 export interface Photo {
     id: string

@@ -35,7 +35,7 @@ export default async function Page(
         <Galeria fotos={acomodacao.photos} />
         <div className="flex flex-col md:flex-row">
           <AcomodacaoDetalhes accommodation={acomodacao} />
-          <AcomodacaoDepoimentos />
+          <AcomodacaoDepoimentos testimonials={acomodacao.testimonials} />
         </div>
       </main>
 

@@ -1,8 +1,8 @@
 
 import Link from "next/link"
-import Logo from "../components/Logo"
 import BotaoIcone from "../components/BotaoIcone"
 import { IconUserCircle } from "@tabler/icons-react"
+import Logo from "../components/Logo"
 
 const BarraSuperior = () => {
   return (

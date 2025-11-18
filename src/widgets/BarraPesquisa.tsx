@@ -1,6 +1,5 @@
 import { IconSearch } from "@tabler/icons-react"
 
-
 const BarraPesquisa = () => {
     return (
         <div className="

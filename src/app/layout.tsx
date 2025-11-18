@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Airbnb | Locações por temporada, chalés, casas de praia e muito mais.",
   description: "Reserve um Airbnb para cada tipo de viagem → 7 milhões de locações por temporada → 2 milhões de Preferidos dos Hóspedes → Mais de 220 países e regiões em todo o mundo.",
-  keywords: ["airbnb", "locação", "viagens",]
 };
 
 export default function RootLayout({
